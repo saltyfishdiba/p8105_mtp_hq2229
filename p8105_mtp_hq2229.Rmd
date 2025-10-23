@@ -7,7 +7,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-We recreate key results from the paper. Using visualizations and simple analyses, we evaluate whether the data support the authors’ hypothesis.
+We recreate key results from the paper. Using visualizations and simple analyses, we evaluate whether the data support ===》 author hypothesis.
 
 
 ## Problem 1 
@@ -315,4 +315,4 @@ list("FHP overall mean/SD" = fhp_overall,
 *EEOP is defined as EOP classes 2–5 (≥10 mm). The 95% Wald CI for the EEOP proportion is (**`r eeop_ci$lo_txt`**, **`r eeop_ci$hi_txt`**), and the point estimate **`r eeop_ci$p_txt`** lies within this interval.*
 
 
-Small gaps from the paper likely reflect class boundary choices (e.g., treatment of exactly 10 mm), missingness, and rounding. Because the data are observational and cross-sectional, results indicate association—not causation—and the FHP–EOP tendency appears **weak and strata-dependent** (stronger in males than females).
+Small gaps from the paper likely reflect class boundary choices (e.g., treatment of exactly 10 mm), missingness, and rounding. Because the data are observational and cross-sectional, results indicate association, not causation, and the FHP–EOP tendency appears **weak and strata-dependent** (stronger in males than females).
